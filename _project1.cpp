@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-	string str1,str2,name,gender,hobby,word,s;
-	int a,b,age,n,m=0,i,flag=0,say=0;
+	string str1,str2,name,gender,hobby,word;
+	int a,b,age,n,m=0,i,flag=0;
 	cout<<"Which command do you want to do - Find fib, About me, Math, Check prime, How many a? : ";
 	getline (cin, str1);
 	if (str1 == "Find fib")
@@ -102,16 +102,6 @@ int main()
     if (flag == 0)  
         cout << "\nNumber is Prime."<<endl;  
         return 0;  
-}
-else if (str1 == "How many?"){
-	getline (cin, s);
-	cin>>word;
-	n = s.size();
-	for (int i=0;i<n;i++){
-		if (s[i]=='a')
-		say++;
-	}
-	cout<<say;
 }
 	else{
 	    cout<<"\nEnter valid command. Try again.";
