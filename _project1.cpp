@@ -5,13 +5,13 @@ int main()
 {
 	string str1,str2,name,gender,hobby,word;
 	int a,b,age,n,m=0,i,flag=0;
-	cout<<"Which command do you want to do - Find fib, About me, Math, Check prime, How many a? : ";
+	cout<<"Which command do you want to do - Fibonacci, About me, Math, Check prime, How many a? : ";
 	getline (cin, str1);
-	if (str1 == "Find fib")
+	if (str1 == "Fibonacci")
 	{
 	int fib[100];
 	int n;
-	cout<<"\nEnter n: ";
+	cout<<"\nEnter number: ";
 	cin>>n;
 	fib[0]=1;
 	fib[1]=1;
